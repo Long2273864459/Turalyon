@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: Turalyon-Server-System
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.url}:8001
+      config:
+        server-addr: ${nacos.url}:8001
+        # 加载多配置文件
+        ext-config:
+          - data-id: turalyon-server-system.yaml
+            group: local
+            refresh: true
+          - data-id: application-monitor.yaml
+            group: local
+            refresh: true
+          - data-id: application-mysql.yaml
+            group: local
+            refresh: true
+          - data-id: application-mybatis.yaml
+            group: local
+            refresh: true
+          - data-id: application-security.yaml
+            group: local
+            refresh: true
+          - data-id: application-rabbitmq.yaml
+            group: local
+            refresh: true
+          - data-id: application-zipkin.yaml
+            group: local
+            refresh: true
+          - data-id: application-logging.yaml
+            group: local
+            refresh: true
+        # 单个配置文件加载
+        # prefix: cloud-auth
+        file-extension: yaml

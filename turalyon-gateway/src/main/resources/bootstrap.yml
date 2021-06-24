@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Turalyon-Gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8001
+      config:
+        server-addr: localhost:8001
+        # 加载多配置文件
+        ext-config:
+          - data-id: turalyon-gateway.yaml
+            group: local
+            refresh: true
+          - data-id: application-monitor.yaml
+            group: local
+            refresh: true
+          - data-id: application-hystrix.yaml
+            group: local
+            refresh: true
+        # 单个配置文件加载
+        # prefix: cloud-auth
+        file-extension: yaml

@@ -22,25 +22,25 @@ Turalyon 是一款使用Spring Cloud Hoxton.RELEASE、Spring Cloud OAuth2 & Spri
 
 <table>
   <tr>
-    <td align="center" style="background: #fff"><b>Cloud Demo</b></td>
+    <td align="center" style="background: #fff"><b>Turalyon Cloud</b></td>
   </tr>
   <tr>
-    <td align="center" style="background: #fff"><img src="/images/cloud-demo.png"/></td>
+    <td align="center" style="background: #fff"><img src="images/cloud-demo.png"></td>
   </tr>
   <tr>
-  	<td align="center" style="background: #fff"><b>Cloud Prometheus APM</b></td>
+  	<td align="center" style="background: #fff"><b>Turalyon Prometheus APM</b></td>
   </tr>
   <tr>
   	<td align="center" style="background: #fff"><img src="images/prometheus_apm.png"/></td>
   </tr>
    <tr>
-    <td align="center" style="background: #fff"><b>Cloud Skywalking APM</b></td>
+    <td align="center" style="background: #fff"><b>Turalyon Skywalking APM</b></td>
   </tr>
   <tr>
     <td align="center" style="background: #fff"><img src="images/skywalking_apm.png"/></td>
   </tr>
    <tr>
-    <td align="center" style="background: #fff"><b>Cloud Kubernetes</b></td>
+    <td align="center" style="background: #fff"><b>Turalyon Kubernetes</b></td>
   </tr>
   <tr>
     <td align="center" style="background: #fff"><img src="images/cloud-k8s.png"/></td>
