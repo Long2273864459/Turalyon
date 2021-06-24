@@ -1,0 +1,5 @@
+turalyon-auth: mysql.url=127.0.0.1;redis.url=127.0.0.1;nacos.url=127.0.0.1;rabbitmq.url=127.0.0.1;cloud-gateway=127.0.0.1;cloud-monitor-admin=127.0.0.1;mysql.url=127.0.0.1
+turalyon-gateway:  nacos.url=127.0.0.1;turalyon-monitor-admin=127.0.0.1
+turalyon-monitor-admin:  nacos.url=127.0.0.1
+turalyon-server-system: mysql.url=127.0.0.1; redis.url=127.0.0.1; nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; turalyon-monitor-admin=127.0.0.1;turalyon-gateway=127.0.0.1
+turalyon-server-test:  nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; turalyon-monitor-admin=127.0.0.1;turalyon-gateway=127.0.0.1
