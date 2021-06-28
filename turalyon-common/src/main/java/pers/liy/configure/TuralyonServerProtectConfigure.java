@@ -27,12 +27,12 @@ public class TuralyonServerProtectConfigure implements WebMvcConfigurer {
     }
 
     @Bean
-    public HandlerInterceptor cloudServerProtectInterceptor() {
+    public HandlerInterceptor turalyonServerProtectInterceptor() {
         return new TuralyonServerProtectInterceptor();
     }
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(cloudServerProtectInterceptor());
+        registry.addInterceptor(turalyonServerProtectInterceptor());
     }
 }

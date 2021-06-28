@@ -51,7 +51,7 @@ Turalyon 是一款使用Spring Cloud Hoxton.RELEASE、Spring Cloud OAuth2 & Spri
 
 ### 项目地址
 
- 平台  | Cloud Demo（后端） |Cloud Web（前端）
+ 平台  | Turalyon Cloud（后端） |Cloud Web（前端）
 ---|---|---
 GitHub | https://github.com/Long2273864459/Turalyon.git |
 
@@ -165,3 +165,18 @@ Skywalking|11800、12800、8080|Skywalking APM
   	<td><img src="images/redis_monitor.png"/></td>
   </tr>
 </table>
+
+
+#### [ Skywalking APM](http://127.0.0.1:8080/)
+
+<table>
+  <tr>
+     <td><img src="images/skywalking1.png"/></td>
+     <td><img src="images/skywalking2.png"/></td>
+  </tr>
+  <tr>
+     <td><img src="images/skywalking3.png"/></td>
+     <td><img src="images/skywalking4.png"/></td>
+  </tr>
+</table>
+

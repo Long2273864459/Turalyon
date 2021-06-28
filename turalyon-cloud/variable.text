@@ -2,4 +2,6 @@ turalyon-auth: mysql.url=127.0.0.1;redis.url=127.0.0.1;nacos.url=127.0.0.1;rabbi
 turalyon-gateway:  nacos.url=127.0.0.1;turalyon-monitor-admin=127.0.0.1
 turalyon-monitor-admin:  nacos.url=127.0.0.1
 turalyon-server-system: mysql.url=127.0.0.1; redis.url=127.0.0.1; nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; turalyon-monitor-admin=127.0.0.1;turalyon-gateway=127.0.0.1
-turalyon-server-test:  nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; turalyon-monitor-admin=127.0.0.1;turalyon-gateway=127.0.0.1
+turalyon-server-test:  nacos.url=127.0.0.1;rabbitmq.url=127.0.0.1;turalyon-monitor-admin=127.0.0.1;turalyon-gateway=127.0.0.1
+
+Skywalking: -javaagent:C:\Users\Prock.Liy\Desktop\agent\skywalking-agent.jar -Dskywalking.agent.service_name=turalyon-server-test -Dskywalking.collector.backend_service=192.168.198.130:11800

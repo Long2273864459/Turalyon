@@ -4,9 +4,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8001
+        server-addr: ${nacos.url}:8001
       config:
-        server-addr: localhost:8001
+        server-addr: ${nacos.url}:8001
         # 加载多配置文件
         ext-config:
           - data-id: turalyon-gateway.yaml
